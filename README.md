@@ -1,4 +1,4 @@
-# Node.js Login Application
+# CS 125 Project : Node.js Login Application
 A node.js web application built on the express framework and  Sequelize database
 
 ##Setting Up
