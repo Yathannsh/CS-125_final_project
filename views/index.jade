@@ -1,0 +1,18 @@
+extends layout
+
+block content
+  a(href='/') Logout
+  h1 User List
+
+  table
+    thead
+      tr
+        th Name
+        th Username
+        th Email
+    tbody
+    each user in users
+      tr
+        td= user.name
+        td= user.username
+        td= user.email
